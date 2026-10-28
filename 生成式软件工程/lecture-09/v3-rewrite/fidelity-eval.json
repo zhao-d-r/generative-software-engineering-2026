@@ -1,0 +1,1259 @@
+{
+  "schema_version": 1,
+  "mode": "full",
+  "notes_sha256": "6ffc10fb4cc2e06c8cca03d62d506987f6ef5e30f4fea2a0ff44e6a924c5e795",
+  "writer_model": "grok-4.7-high",
+  "precision": {
+    "items": [
+      {
+        "ref": "map",
+        "verdict": "supported",
+        "evidence": "s-g7.0~20, s-g235.0~22, s-g345.0, s-g347.0, s-g591.1, s-g615.0~4",
+        "note": "课程主线概括与全篇内容一致。",
+        "hash": "c68e7c93c726d27b"
+      },
+      {
+        "ref": "s1:takeaway",
+        "verdict": "supported",
+        "evidence": "s-g6.0, s-g7.0~20, s-g8.0~39, s-g14.0~27, s-g18.0~25",
+        "note": "与对应讲稿一致。",
+        "hash": "689f4e51d56e1b92"
+      },
+      {
+        "ref": "s1:visual",
+        "verdict": "supported",
+        "evidence": "s-g6.0, s-g7.0~20, s-g18.0~25, s-g20.0~19, s-g22.1~1",
+        "note": "与对应讲稿一致。",
+        "hash": "9e7a7ba16eb9db49"
+      },
+      {
+        "ref": "s1:n2",
+        "verdict": "supported",
+        "evidence": "s-g7.0~20; s-g9.0; s-g18.0~25; s-g20.0~19; s-g21.0; s-g22.1~1",
+        "note": "组织管理背景、锁类型，以及独立且不破坏架构的小修复可并行，均有依据。",
+        "hash": "34eeeec61112ffd6"
+      },
+      {
+        "ref": "s1:p3",
+        "verdict": "supported",
+        "evidence": "s-g18.0~25, s-g20.0~19, s-g21.0, s-g22.1~1, s-g22.1~34, s-g25.0~14",
+        "note": "与对应讲稿一致。",
+        "hash": "c479c0ebf995b3da"
+      },
+      {
+        "ref": "s2:takeaway",
+        "verdict": "supported",
+        "evidence": "s-g56.0~5, s-g58.1~12",
+        "note": "与对应讲稿一致。",
+        "hash": "5cb216f79c02c8c2"
+      },
+      {
+        "ref": "s2:p0",
+        "verdict": "supported",
+        "evidence": "s-g28.0~3, s-g29.0~9, s-g29.1~8, s-g33.0~9, s-g34.0~25",
+        "note": "与对应讲稿一致。",
+        "hash": "bb66d87d56bdc233"
+      },
+      {
+        "ref": "s2:p4",
+        "verdict": "supported",
+        "evidence": "s-g56.0~5, s-g58.1~12",
+        "note": "与对应讲稿一致。",
+        "hash": "73377df328880b05"
+      },
+      {
+        "ref": "s2:f1",
+        "verdict": "supported",
+        "evidence": "frames/v000360000.jpg",
+        "note": "指定画面中的文字、界面和数值与描述一致。",
+        "hash": "663bfa105d1d54f5"
+      },
+      {
+        "ref": "s3:takeaway",
+        "verdict": "supported",
+        "evidence": "s-g61.0~16, s-g62.0, s-g66.0~31, s-g67.0~32",
+        "note": "与对应讲稿一致。",
+        "hash": "3678b6f9cae12595"
+      },
+      {
+        "ref": "s3:p3",
+        "verdict": "supported",
+        "evidence": "s-g70.3~36, s-g72.0~14",
+        "note": "与对应讲稿一致。",
+        "hash": "46dd2305a6152aca"
+      },
+      {
+        "ref": "s3:p2",
+        "verdict": "supported",
+        "evidence": "s-g68.0~55, s-g69.0~67, s-g70.3~36",
+        "note": "与对应讲稿一致。",
+        "hash": "55df7eb6efdd9a08"
+      },
+      {
+        "ref": "s3:f0",
+        "verdict": "supported",
+        "evidence": "frames/v000500000.jpg",
+        "note": "指定画面中的文字、界面和数值与描述一致。",
+        "hash": "de284461489ec1bf"
+      },
+      {
+        "ref": "s4:takeaway",
+        "verdict": "supported",
+        "evidence": "s-g79.0~30, s-g85.0~46, s-g86.0~39, s-g95.0~22",
+        "note": "与对应讲稿一致。",
+        "hash": "68bf7b321a37a871"
+      },
+      {
+        "ref": "s4:visual",
+        "verdict": "supported",
+        "evidence": "s-g79.0~30, s-g85.0~46, s-g86.0~39, s-g95.0~22",
+        "note": "与对应讲稿一致。",
+        "hash": "d1508e172f7e3ef0"
+      },
+      {
+        "ref": "s4:p2",
+        "verdict": "supported",
+        "evidence": "s-g87.0~51, s-g90.0~15, s-g92.0~14, s-g93.0~28, s-g94.0~14, s-g95.0~22, s-g96.0~64",
+        "note": "与对应讲稿一致。",
+        "hash": "c6a4d7b194727676"
+      },
+      {
+        "ref": "s4:n0",
+        "verdict": "supported",
+        "evidence": "s-g79.0~30, s-g80.1~34",
+        "note": "与对应讲稿一致。",
+        "hash": "69e5f48ef23f2f18"
+      },
+      {
+        "ref": "s5:takeaway",
+        "verdict": "supported",
+        "evidence": "s-g124.0~1, s-g127.0~18",
+        "note": "与对应讲稿一致。",
+        "hash": "117b5973cacb2528"
+      },
+      {
+        "ref": "s5:e1",
+        "verdict": "supported",
+        "evidence": "s-g121.0~3",
+        "note": "所列五类条目以及更多需求、非功能性需求，均直接出现在口播中。",
+        "hash": "acb6de830c6814fc"
+      },
+      {
+        "ref": "s5:p1",
+        "verdict": "supported",
+        "evidence": "s-g107.0~6, s-g110.2~5, s-g114.0~8, s-g117.0~8, s-g121.0~3",
+        "note": "与对应讲稿一致。",
+        "hash": "8c9d5edea27a4cf9"
+      },
+      {
+        "ref": "s6:takeaway",
+        "verdict": "supported",
+        "evidence": "s-g138.0~2, s-g145.0~23, s-g148.0~17",
+        "note": "与对应讲稿一致。",
+        "hash": "007bc44d434ee278"
+      },
+      {
+        "ref": "s6:visual",
+        "verdict": "supported",
+        "evidence": "s-g145.0~23, s-g148.0~17, s-g154.0~3, s-g160.0~11, s-g162.0",
+        "note": "与对应讲稿一致。",
+        "hash": "8e56c01718214538"
+      },
+      {
+        "ref": "s6:p1",
+        "verdict": "supported",
+        "evidence": "s-g142.0~11, s-g145.0~23, s-g148.0~17",
+        "note": "与对应讲稿一致。",
+        "hash": "5cf97be15cef5e94"
+      },
+      {
+        "ref": "s6:p0",
+        "verdict": "supported",
+        "evidence": "s-g131.0~5, s-g134.0~8, s-g138.0~2, s-g142.0~11",
+        "note": "与对应讲稿一致。",
+        "hash": "54418b2f2b3b0721"
+      },
+      {
+        "ref": "s7:takeaway",
+        "verdict": "supported",
+        "evidence": "s-g202.0~12, s-g206.0~10, s-g217.0~24, s-g222.0~7; frames/slides/slide-10.png",
+        "note": "与对应讲稿一致。",
+        "hash": "b4706153fe8f1af5"
+      },
+      {
+        "ref": "s7:n0",
+        "verdict": "supported",
+        "evidence": "s-g198.1~2, s-g202.0~12; frames/slides/slide-10.png",
+        "note": "时间精度及口播与幻灯片的产品名差别均吻合。",
+        "hash": "ee468bc2bbdf063b"
+      },
+      {
+        "ref": "s7:n1",
+        "verdict": "supported",
+        "evidence": "s-g206.0~10, s-g209.0~4; frames/slides/slide-10.png",
+        "note": "两条提交说明和口播区别吻合。",
+        "hash": "effcca45e6951c87"
+      },
+      {
+        "ref": "s8:takeaway",
+        "verdict": "supported",
+        "evidence": "s-g235.0~22, s-g236.0~25, s-g238.0, s-g239.0",
+        "note": "与对应讲稿一致。",
+        "hash": "3853e69257ca285a"
+      },
+      {
+        "ref": "s8:visual",
+        "verdict": "supported",
+        "evidence": "s-g235.0~9, s-g236.0, s-g236.0~25, s-g243.0, s-g245.0~6",
+        "note": "与对应讲稿一致。",
+        "hash": "cdae099525d368a6"
+      },
+      {
+        "ref": "s8:p2",
+        "verdict": "supported",
+        "evidence": "s-g247.0, s-g247.0~30, s-g248.0~2, s-g248.0~71, s-g248.0~133, s-g248.0~195, s-g249.0~24, s-g249.0~76",
+        "note": "与对应讲稿一致。",
+        "hash": "610f5803f09eef7f"
+      },
+      {
+        "ref": "s8:p0",
+        "verdict": "supported",
+        "evidence": "s-g235.0~9, s-g235.0~22, s-g236.0, s-g236.0~25, s-g237.0~30, s-g237.0~63, s-g238.0",
+        "note": "与对应讲稿一致。",
+        "hash": "67764c7d6e1d9771"
+      },
+      {
+        "ref": "s9:takeaway",
+        "verdict": "supported",
+        "evidence": "s-g254.0, s-g255.0~33, s-g262.0, s-g262.0~34, s-g263.0",
+        "note": "与对应讲稿一致。",
+        "hash": "9bf6f7576faaf3af"
+      },
+      {
+        "ref": "s9:p0",
+        "verdict": "supported",
+        "evidence": "s-g250.0, s-g251.0, s-g251.0~27, s-g251.0~53, s-g251.0~72, s-g253.0, s-g253.0~45, s-g253.0~91",
+        "note": "与对应讲稿一致。",
+        "hash": "6eaf2060991a7746"
+      },
+      {
+        "ref": "s9:n1",
+        "verdict": "partial",
+        "evidence": "s-g262.0; s-g263.0; s-g268.0~27",
+        "note": "匹配则方便、AI 补充及回看 slides 有依据，本节也未口播蒸汽工厂；但原话是架构“可能会成为”阻力，条目改为“就会”，加强了确定性。",
+        "hash": "cd857baedc13be53"
+      },
+      {
+        "ref": "s10:takeaway",
+        "verdict": "supported",
+        "evidence": "s-g281.0~8, s-g298.0~12, s-g307.0, s-g310.0",
+        "note": "与对应讲稿一致。",
+        "hash": "7141928d55f3db86"
+      },
+      {
+        "ref": "s10:visual",
+        "verdict": "supported",
+        "evidence": "s-g281.0~8, s-g284.0~35, s-g298.0~12",
+        "note": "与对应讲稿一致。",
+        "hash": "9e902a60836332a8"
+      },
+      {
+        "ref": "s10:n0",
+        "verdict": "supported",
+        "evidence": "s-g270.0, s-g294.0~65; frames/v002020000.jpg",
+        "note": "与对应讲稿一致。",
+        "hash": "5cfae5125923fd4e"
+      },
+      {
+        "ref": "s10:n1",
+        "verdict": "supported",
+        "evidence": "s-g313.0~21; s-g284.0~35",
+        "note": "“以万索性”在此为 event sourcing 的转写；讲稿明确提到排序、shuffle 和隐藏的系统实现。",
+        "hash": "99b9bef888eb3d88"
+      },
+      {
+        "ref": "s10:f0",
+        "verdict": "supported",
+        "evidence": "frames/v002020000.jpg",
+        "note": "指定画面中的文字、界面和数值与描述一致。",
+        "hash": "f2c4660219c4b789"
+      },
+      {
+        "ref": "s11:takeaway",
+        "verdict": "supported",
+        "evidence": "s-g324.0, s-g332.0, s-g334.0",
+        "note": "与对应讲稿一致。",
+        "hash": "c274ed33a1b23751"
+      },
+      {
+        "ref": "s11:p2",
+        "verdict": "supported",
+        "evidence": "s-g333.0, s-g334.0",
+        "note": "与对应讲稿一致。",
+        "hash": "eab5df62dc5c4e6a"
+      },
+      {
+        "ref": "s11:n0",
+        "verdict": "supported",
+        "evidence": "s-g333.0, s-g334.0",
+        "note": "与对应讲稿一致。",
+        "hash": "0633dcce1f8e22bd"
+      },
+      {
+        "ref": "s12:takeaway",
+        "verdict": "supported",
+        "evidence": "s-g345.0, s-g346.0",
+        "note": "与对应讲稿一致。",
+        "hash": "e12356af11bb08f2"
+      },
+      {
+        "ref": "s12:visual",
+        "verdict": "partial",
+        "evidence": "s-g345.0, s-g346.0, s-g347.0, s-g358.2~6, s-g360.0~19",
+        "note": "正文所述事件日志派生模型消息和 open entry 不持久化有依据；标签「从消息派生」方向含混，应为「从事件派生消息」。",
+        "hash": "75494f2701f12ef3"
+      },
+      {
+        "ref": "s12:n0",
+        "verdict": "supported",
+        "evidence": "s-g345.0, s-g346.0, s-g360.0~19; frames/slides/slide-21.png",
+        "note": "与对应讲稿一致。",
+        "hash": "084234fdde5d799f"
+      },
+      {
+        "ref": "s12:n1",
+        "verdict": "supported",
+        "evidence": "frames/slides/slide-21.png; s-g342.0, s-g345.0, s-g346.0",
+        "note": "幻灯片内容吻合，Pacioli 类比明确区分为非口播内容。",
+        "hash": "16c0d9ac67d4ce87"
+      },
+      {
+        "ref": "s13:takeaway",
+        "verdict": "supported",
+        "evidence": "s-g377.0~21, s-g381.0, s-g381.1~28",
+        "note": "与对应讲稿一致。",
+        "hash": "f362c06c221b895b"
+      },
+      {
+        "ref": "s13:n0",
+        "verdict": "partial",
+        "evidence": "s-g362.0; s-g362.3~1; s-g365.0; s-g372.0~2",
+        "note": "英文短句、思维链和 token 统计均有依据；但本节无核对画面，讲稿没有明确说这句英文是他打进去的，不能把输入动作当作已证实事实。",
+        "hash": "1db04f003e3ea663"
+      },
+      {
+        "ref": "s13:e0",
+        "verdict": "partial",
+        "evidence": "s-g362.0, s-g362.3~1, s-g365.0; frames/slides/slide-22.png",
+        "note": "仅英文、思考过程和 token 统计主题获支持；指定帧不含该时刻界面，长文档技术细节、时间及状态栏数值均无从核实。",
+        "hash": "44563fc017fa78f9"
+      },
+      {
+        "ref": "s14:takeaway",
+        "verdict": "supported",
+        "evidence": "s-g416.0~31, s-g428.0~6, s-g433.0~7, s-g455.0~14, s-g461.0~11",
+        "note": "与对应讲稿一致。",
+        "hash": "adc4f7bbb9aa64f7"
+      },
+      {
+        "ref": "s14:n2",
+        "verdict": "supported",
+        "evidence": "s-g416.0~31; s-g428.0~6; s-g472.0~3; s-g477.0~23",
+        "note": "prestep hook 可修改上下文；官方仓库移除 TUI、后来出现第三方 textUI，均有明确口播。",
+        "hash": "deb9bf454ab607c6"
+      },
+      {
+        "ref": "s14:n0",
+        "verdict": "supported",
+        "evidence": "s-g455.0~14, s-g472.0~3, s-g477.0~23; frames/slides/slide-26.png",
+        "note": "口播与幻灯片内容对应。",
+        "hash": "ac37566fa4df2ad5"
+      },
+      {
+        "ref": "s15:takeaway",
+        "verdict": "supported",
+        "evidence": "s-g535.0~4, s-g547.0~5, s-g553.0~5",
+        "note": "与对应讲稿一致。",
+        "hash": "739990ff5d1fe4b5"
+      },
+      {
+        "ref": "s15:visual",
+        "verdict": "supported",
+        "evidence": "s-g535.0~4, s-g547.0~5",
+        "note": "与对应讲稿一致。",
+        "hash": "747c481a17a25724"
+      },
+      {
+        "ref": "s15:p0",
+        "verdict": "supported",
+        "evidence": "s-g490.0, s-g495.0~7, s-g501.0~11, s-g503.0, s-g510.0",
+        "note": "与对应讲稿一致。",
+        "hash": "92ddac442018ad94"
+      },
+      {
+        "ref": "s15:n0",
+        "verdict": "partial",
+        "evidence": "s-g515.0; s-g558.0",
+        "note": "bettersidebar 及从 Off 调到 Low 的口播有依据；本节没有提供核对画面，无法证实幻灯片上的完整名称 dsh-better-sidebar 或画面先显示 Off。",
+        "hash": "1fe8bcb32c3c39e0"
+      },
+      {
+        "ref": "s15:f0",
+        "verdict": "supported",
+        "evidence": "frames/v003500000.jpg",
+        "note": "指定画面中的文字、界面和数值与描述一致。",
+        "hash": "251c69c024e76a82"
+      },
+      {
+        "ref": "s16:takeaway",
+        "verdict": "supported",
+        "evidence": "s-g571.0, s-g571.0~55, s-g574.0~5, s-g575.0~53; frames/slides/slide-27.png",
+        "note": "与对应讲稿一致。",
+        "hash": "eda27ce76ba3482b"
+      },
+      {
+        "ref": "s16:visual",
+        "verdict": "supported",
+        "evidence": "s-g571.0, s-g571.0~107, s-g574.0~5; frames/slides/slide-27.png",
+        "note": "与对应讲稿一致。",
+        "hash": "1947d78a52f2cb55"
+      },
+      {
+        "ref": "s16:p1",
+        "verdict": "supported",
+        "evidence": "s-g569.0, s-g569.0~67, s-g570.0, s-g570.0~43, s-g570.0~90, s-g571.0, s-g571.0~55, s-g571.0~95; frames/slides/slide-27.png",
+        "note": "与对应讲稿一致。",
+        "hash": "62d29de5a636276e"
+      },
+      {
+        "ref": "s16:n0",
+        "verdict": "supported",
+        "evidence": "s-g571.0, s-g571.0~55; frames/slides/slide-27.png",
+        "note": "与对应讲稿一致。",
+        "hash": "d1031c2fa992a3b9"
+      },
+      {
+        "ref": "s17:takeaway",
+        "verdict": "supported",
+        "evidence": "s-g581.2~5, s-g589.0, s-g590.0~28, s-g591.1",
+        "note": "与对应讲稿一致。",
+        "hash": "c8f9072e32fcb6fa"
+      },
+      {
+        "ref": "s17:visual",
+        "verdict": "supported",
+        "evidence": "s-g589.0, s-g590.0~28, s-g591.1",
+        "note": "与对应讲稿一致。",
+        "hash": "e9e87a08467a66ee"
+      },
+      {
+        "ref": "s17:n3",
+        "verdict": "supported",
+        "evidence": "s-g589.0; s-g590.0~28; s-g603.0",
+        "note": "锁定对象、送入模型上下文、取回修改对象并替换回应用，均为口播内容。",
+        "hash": "41906c22754fdf0c"
+      },
+      {
+        "ref": "s17:n2",
+        "verdict": "supported",
+        "evidence": "s-g596.0, s-g598.0; frames/v004180000.jpg",
+        "note": "与对应讲稿一致。",
+        "hash": "cfee9daab1d5cee6"
+      },
+      {
+        "ref": "s17:f0",
+        "verdict": "supported",
+        "evidence": "frames/v004180000.jpg",
+        "note": "指定画面中的文字、界面和数值与描述一致。",
+        "hash": "7f387b9268d6b5f4"
+      },
+      {
+        "ref": "s18:takeaway",
+        "verdict": "supported",
+        "evidence": "s-g615.0~4, s-g621.0~8, s-g623.0, s-g624.0~52",
+        "note": "与对应讲稿一致。",
+        "hash": "57e50ccdaf942653"
+      },
+      {
+        "ref": "s18:visual",
+        "verdict": "supported",
+        "evidence": "s-g615.0~4, s-g618.0~42, s-g623.0, s-g634.0, s-g637.0~14",
+        "note": "与对应讲稿一致。",
+        "hash": "0ec6816a223b3a7f"
+      },
+      {
+        "ref": "s18:n0",
+        "verdict": "supported",
+        "evidence": "s-g611.0; s-g612.0~11; s-g625.0",
+        "note": "protocol 是对 PROTOK 的合理转写；未擅自补全 BLANNER；generative UI 与生成式界面的对应准确。",
+        "hash": "cc6b631e40a93311"
+      },
+      {
+        "ref": "s18:e0",
+        "verdict": "supported",
+        "evidence": "frames/v004540000.jpg; s-g634.0; s-g637.0~14",
+        "note": "画面支持标题、Interactive UI、词语、比分、轮次、八个按钮及底栏统计；Off 也与关闭思考的口播一致。",
+        "hash": "4b8eee798a4cc8d8"
+      },
+      {
+        "ref": "s18:f1",
+        "verdict": "supported",
+        "evidence": "frames/v004540000.jpg",
+        "note": "指定画面显示惊弓之鸟接到鸟语花香、你 1 我 1、第 2 轮接香、八个按钮及 Interactive UI。",
+        "hash": "318fc58992aa0391"
+      },
+      {
+        "ref": "s19:takeaway",
+        "verdict": "supported",
+        "evidence": "s-g659.1~10, s-g660.0, s-g661.0~24, s-g663.0~2",
+        "note": "与对应讲稿一致。",
+        "hash": "fb2c45ad7c1d7eba"
+      },
+      {
+        "ref": "s19:p1",
+        "verdict": "supported",
+        "evidence": "s-g669.0, s-g670.0, s-g672.0, s-g673.0, s-g674.0, s-g675.0",
+        "note": "与对应讲稿一致。",
+        "hash": "f21da4225658bacd"
+      },
+      {
+        "ref": "s19:p2",
+        "verdict": "supported",
+        "evidence": "s-g676.0, s-g677.0, s-g678.0, s-g679.0",
+        "note": "与对应讲稿一致。",
+        "hash": "1daec99ce01d2a4b"
+      },
+      {
+        "ref": "s19:f0",
+        "verdict": "supported",
+        "evidence": "frames/v004660000.jpg",
+        "note": "指定画面中的文字、界面和数值与描述一致。",
+        "hash": "a26d77c386ce10bb"
+      },
+      {
+        "ref": "s20:takeaway",
+        "verdict": "supported",
+        "evidence": "s-g702.0, s-g705.0, s-g706.0, s-g707.0, s-g710.0, s-g711.0",
+        "note": "与对应讲稿一致。",
+        "hash": "21a8d46136e6cf23"
+      },
+      {
+        "ref": "s20:p3",
+        "verdict": "supported",
+        "evidence": "s-g699.0, s-g700.0, s-g701.0, s-g702.0, s-g703.0, s-g705.0, s-g706.0, s-g707.0, s-g708.0",
+        "note": "与对应讲稿一致。",
+        "hash": "3387b51c994f7109"
+      },
+      {
+        "ref": "s20:n1",
+        "verdict": "supported",
+        "evidence": "s-g700.0; s-g710.0; s-g711.0",
+        "note": "两处均提到保密，招人帖用“可能看到”表述；项目仅简述思路，没有展开保密细节或帖子正文。",
+        "hash": "60a44817c620c1da"
+      },
+      {
+        "ref": "s20:f0",
+        "verdict": "supported",
+        "evidence": "frames/v004960000.jpg",
+        "note": "指定画面中的文字、界面和数值与描述一致。",
+        "hash": "20a315b5e955ce65"
+      },
+      {
+        "ref": "q1",
+        "verdict": "supported",
+        "evidence": "s-g79.0~30, s-g80.1~34",
+        "note": "与对应讲稿一致。",
+        "hash": "cab121d6e72438d5"
+      },
+      {
+        "ref": "q2",
+        "verdict": "supported",
+        "evidence": "s-g85.0~46, s-g86.0~39",
+        "note": "与对应讲稿一致。",
+        "hash": "6b991bf2a3fe3abf"
+      },
+      {
+        "ref": "q3",
+        "verdict": "supported",
+        "evidence": "s-g281.0~8, s-g284.0~35, s-g298.0~12, s-g307.0, s-g310.0",
+        "note": "与对应讲稿一致。",
+        "hash": "6007d24b7c276826"
+      },
+      {
+        "ref": "q4",
+        "verdict": "supported",
+        "evidence": "s-g345.0, s-g346.0",
+        "note": "与对应讲稿一致。",
+        "hash": "be9a7b58194346f2"
+      },
+      {
+        "ref": "q5",
+        "verdict": "supported",
+        "evidence": "s-g571.0~55, s-g571.0~107, s-g574.0~5, s-g575.0~53",
+        "note": "与对应讲稿一致。",
+        "hash": "8bd6fdcc5888b8a1"
+      },
+      {
+        "ref": "q6",
+        "verdict": "supported",
+        "evidence": "s-g589.0, s-g590.0~28",
+        "note": "与对应讲稿一致。",
+        "hash": "93871d3d6870db2e"
+      },
+      {
+        "ref": "q7",
+        "verdict": "supported",
+        "evidence": "s-g634.0; s-g637.0~14",
+        "note": "讲稿明确说以惊弓之鸟开局，模型接鸟语花香。",
+        "hash": "e806961a93b872b0"
+      },
+      {
+        "ref": "s11:f0",
+        "verdict": "supported",
+        "evidence": "frames/slides/slide-20.jpg",
+        "note": "页面逐项列明插件私有状态、Cordis 职责、操作系统类比及两种协同困境。",
+        "hash": "f1a87ec6b7673eb4"
+      },
+      {
+        "ref": "s12:f0",
+        "verdict": "supported",
+        "evidence": "frames/slides/slide-21.jpg",
+        "note": "页面明确给出 Session 定义、状态投影、Pacioli 紫色历史类比及 Agent、UI slots。",
+        "hash": "ada2742d2e0f1f62"
+      },
+      {
+        "ref": "s13:f1",
+        "verdict": "supported",
+        "evidence": "frames/slides/slide-22.jpg",
+        "note": "页面代码与说明直接支持业务事件记录、事实观察及模型消息和业务状态投影；stateOf 是 ctx.sessionProjections 下的方法。",
+        "hash": "50540c46bd5590a7"
+      },
+      {
+        "ref": "s14:f1",
+        "verdict": "supported",
+        "evidence": "frames/slides/slide-26.jpg",
+        "note": "页面直接列出 TUI、pdf-reader 注入与生命周期、侧栏投影以及 Creator Mode 热插拔能力。",
+        "hash": "9c18df23b570f23d"
+      },
+      {
+        "ref": "s16:f2",
+        "verdict": "supported",
+        "evidence": "frames/slides/slide-27.jpg",
+        "note": "页面直接包含输入处理顺序、停止与继续冲突、电话系统紫色类比、十次压缩公式及组合合理性的限制。",
+        "hash": "d5ce3de4230a1455"
+      },
+      {
+        "ref": "s1:f1",
+        "verdict": "supported",
+        "evidence": "frames/slides/slide-02.jpg",
+        "note": "页面包含两类复杂性，紫色批注明确标注 Brooks (1986) 并给出九成工作与十倍提升的说法。",
+        "hash": "7bb61f11b68ac459"
+      },
+      {
+        "ref": "s4:f0",
+        "verdict": "supported",
+        "evidence": "frames/slides/slide-04.jpg",
+        "note": "页面原文包含 150 行 Mini-Agent、校区 3D 图示例、网络服务中断假设及 API 中断问题。",
+        "hash": "18810d0b41d9e623"
+      },
+      {
+        "ref": "s5:f2",
+        "verdict": "supported",
+        "evidence": "frames/slides/slide-06.jpg",
+        "note": "页面列出全部所述能力和三组规格需求；办公 Agent 产品需求规格说明书以链接标题呈现。",
+        "hash": "408d75b9968b0110"
+      },
+      {
+        "ref": "s6:f1",
+        "verdict": "supported",
+        "evidence": "frames/slides/slide-09.jpg; s-g160.0~11; s-g162.0",
+        "note": "页面明确对比大厂流程与 dsh-bot 秒发，dsh-bot 为链接文字；聊天截图及本节讲述支持多个 bot 与拉群。",
+        "hash": "7a309f8f5645cfc7"
+      },
+      {
+        "ref": "s7:f0",
+        "verdict": "supported",
+        "evidence": "frames/slides/slide-10.jpg",
+        "note": "页面标题精确给出日期时间，并直接列出四个产品及两条英文项目初始化记录。",
+        "hash": "58463ad6778e9bf2"
+      },
+      {
+        "ref": "s8:f2",
+        "verdict": "supported",
+        "evidence": "frames/slides/slide-15.jpg",
+        "note": "页面紫色批注直接支持对象与引用规则、运行时回收、论坛示例及 HotSpot GC 的三项目标权衡。",
+        "hash": "820956c745d6cece"
+      },
+      {
+        "ref": "s9:f2",
+        "verdict": "supported",
+        "evidence": "frames/slides/slide-16.jpg",
+        "note": "页面紫色批注直接给出 HTTP/PHP/MySQL 请求链、PHP-FPM 进程池约束、Apache WebSocket 代理及外部扣款回滚边界。",
+        "hash": "1e1d80b6d6ead16d"
+      }
+    ],
+    "reviewer": "independent_agent",
+    "reviewer_model": "gpt-6.1-sol",
+    "method": "prepare packets: all takeaways/explainers + per-section sample; 98 judged in latest round; 98 judged in latest round; 12 judged in latest round"
+  },
+  "recall": {
+    "items": [
+      {
+        "id": "q06",
+        "question": "南大仙林校区 3D 建模演示用了什么地图数据源？讲师指出了哪两类具体错误？",
+        "expected": "OpenStreetMap；计算机楼高度不对；把大门画成楼或在入口绿地铺满树。",
+        "evidence": "s-g62.0; s-g64.0~13; s-g66.0~31; s-g67.0~32",
+        "from": "transcript",
+        "answer": "数据来自 OpenStreetMap。具体错误包括建筑高度不准（计算机楼应有十层），以及区域和对象用途误判：把空白绿色区域当绿地、把大门画成楼、入口铺满树。",
+        "found_in": "s3:p0, s3:p1",
+        "verdict": "correct",
+        "note": "数据源及建筑高度、入口对象误判均正确。",
+        "hash": "77eb22c4fe8b38f9"
+      },
+      {
+        "id": "q36",
+        "question": "讲师回答“为什么不许愿插件”时介绍了什么模式？该模式比普通 Agent Session 多了什么能力？",
+        "expected": "Creator Mode；赋予 Cordis 相关权限，可在 Agent 运行时安装、卸载或热插拔插件。",
+        "evidence": "s-g535.0~4; s-g542.0~1; s-g547.0~5; s-g553.0~5; s-g555.0~81; slides/slide-26.png",
+        "from": "transcript",
+        "answer": "介绍了 Creator Mode。普通 Agent Session 通常只有工作区读写、bash 等权限；Creator Mode 还拥有 Cordis 权限，可以在 Agent 运行时拆卸、安装并热插拔插件，动态向 event bus 挂载功能。",
+        "found_in": "s15:p1",
+        "verdict": "correct",
+        "note": "模式名称及运行时安装、卸载、热插拔能力均正确。",
+        "hash": "4ae0259f93462bf6"
+      },
+      {
+        "id": "q44",
+        "question": "约 82 分 40 秒的实现说明画面里，承载动态 UI 的 iframe 使用什么 sandbox 值？CSP 中 default-src 和 connect-src 分别是什么？",
+        "expected": "sandbox=\"allow-scripts\"；default-src 'none'；connect-src 'none'。",
+        "evidence": "/Users/evahu/model-eval/course-rerun/runs/lecture-09/supp-cursor/ws/课堂笔记/frames/v004960000.jpg",
+        "from": "visual",
+        "answer": "iframe 的 sandbox 值为 allow-scripts；CSP 为 default-src 'none' 和 connect-src 'none'。",
+        "found_in": "s20:e0",
+        "verdict": "correct",
+        "note": "sandbox 与两项 CSP 值均正确。",
+        "hash": "239534c56560fc96"
+      },
+      {
+        "id": "q45",
+        "question": "动态 UI 插件如何让模型知道要生成带特别标记的 div？讲师提到注入多大的协议说明？",
+        "expected": "勾住 system prompt/context 相关事件来注入协议说明；约 1.5 KB。",
+        "evidence": "s-g680.0; s-g680.0~80; s-g681.0~33; s-g681.1~39",
+        "from": "transcript",
+        "answer": "插件 hook context.systemPrompt 事件，为每个 Session 注入一段 1.5KB 的协议说明，约定模型生成带 class=\"_dsh_dynui\" 标记的 div；插件再从模型输出中提取并投影成 UI。",
+        "found_in": "s20:p0, s20:e0",
+        "verdict": "correct",
+        "note": "注入 system prompt 协议及约 1.5 KB 大小均正确。",
+        "hash": "239534c56560fc96"
+      },
+      {
+        "id": "q46",
+        "question": "课程末尾填写 2021 年至今论文列表的设想，个人数据库、Super App 和插件生态如何协作？讲师强调省去了什么？",
+        "expected": "数据库插件提供论文等个人信息；Super App 把填表任务丢到总线，工具/记忆等协作返回数据填表；无需 computer use 与反复截图等额外 token 消耗。",
+        "evidence": "s-g700.0; s-g702.0; s-g703.0; s-g704.0; s-g705.0; s-g706.0; s-g707.0",
+        "from": "transcript",
+        "answer": "个人 database 插件向模型提供个人信息、论文和学生等数据；Super App 把填写 2021 年至今论文列表的任务交到总线上，生态中的工具、电脑、记忆与 bot 协作取回所需数据并填表。中间省去 computer use、多余 token 消耗和反复截图。",
+        "found_in": "s20:p3",
+        "verdict": "correct",
+        "note": "数据库、总线与插件协作及省去 computer use、截图和 token 消耗均齐全。",
+        "hash": "239534c56560fc96"
+      },
+      {
+        "id": "q01",
+        "question": "开场讨论多 Agent 的版本控制时，讲师认为多个 minor fix 在什么条件下可以并行？",
+        "expected": "这些修改互相独立；不会对架构产生 breaking change。",
+        "evidence": "s-g21.0; s-g22.1~1",
+        "from": "transcript",
+        "answer": "多个 minor fix 互相独立，且不对架构产生 breaking change 时可以并行。",
+        "found_in": "s1:p3, s1:n2",
+        "verdict": "correct",
+        "note": "覆盖参考答案的全部关键点。",
+        "hash": "3186ec1c489fecd7"
+      },
+      {
+        "id": "q02",
+        "question": "第 1 页用哪一年的 Mars Climate Orbiter 案例说明 spec 与 impl 的 gap？具体错在什么单位？",
+        "expected": "1999 年；接口规格要求公制，但交付数据仍是英制。",
+        "evidence": "slides/slide-01.png",
+        "from": "visual",
+        "answer": "1999 年的 Mars Climate Orbiter；接口规格规定使用公制，交付的数据却仍是英制。",
+        "found_in": "s1:f0",
+        "verdict": "correct",
+        "note": "覆盖参考答案的全部关键点。",
+        "hash": "3186ec1c489fecd7"
+      },
+      {
+        "id": "q03",
+        "question": "第 2 页引用 Brooks（1986）时，消除 accidental complexity 要可能带来十倍提升，原先这类工作至少要占到什么程度？",
+        "expected": "必须占到九成；若不到九成，即使全部消除也换不来十倍提升。",
+        "evidence": "slides/slide-02.png",
+        "from": "visual",
+        "answer": "至少要占全部工作的九成；笔记补充的 Brooks 原文表述是超过全部努力的 9/10，否则即使全部消除也达不到十倍提升。",
+        "found_in": "s1:f1, x1",
+        "verdict": "correct",
+        "note": "覆盖参考答案的全部关键点。",
+        "hash": "3186ec1c489fecd7"
+      },
+      {
+        "id": "q04",
+        "question": "讲师回应“上上节课讲了很多却像什么也没讲”的评论时，为什么建议亲自尝试 skills？",
+        "expected": "实际使用可能陷入不想让它管的事情，或反复调用 subagent 做测试与验证；某些流程适合公司开发场景，需要亲自体会是否适合当前任务。",
+        "evidence": "s-g41.0~11; s-g46.0~29; s-g47.0~12; s-g48.0~5; s-g49.2~3",
+        "from": "transcript",
+        "answer": "因为只有真正使用才能感受到简单概念背后的复杂性。例如用 grill with docs 做 lab 1，会遇到它反复找 subagent、做自己认为没必要的测试和 validation，尤其未知情况下还不知道它在做什么；亲自摸索才有切身感受。",
+        "found_in": "s2:p2",
+        "verdict": "partial",
+        "note": "说明了反复调用 subagent、测试验证及亲自体验的必要性，但未说明这些流程可能适合公司开发场景、需判断是否适合当前任务。",
+        "hash": "b6c7da5f1dc5b4f0"
+      },
+      {
+        "id": "q05",
+        "question": "Mini-Agent 有多少行？高铁上的哪次故障暴露了它缺少的哪些产品能力？",
+        "expected": "150 行；断网使进程直接终止；缺少会话保存、恢复和网络重试。",
+        "evidence": "s-g79.0~30; s-g80.1~34",
+        "from": "transcript",
+        "answer": "150 行。在高铁上做仙林校区三维图，运行较久并已有中间结果后断网，进程直接终止；暴露出没有会话保存、恢复和网络中断重试能力，只能从零继续或重做。",
+        "found_in": "s3:p0, s4:p0",
+        "verdict": "correct",
+        "note": "覆盖参考答案的全部关键点。",
+        "hash": "fbbc5eb3635d7344"
+      },
+      {
+        "id": "q07",
+        "question": "讲师用哪些秒数说明 exponential backoff？为什么不一直每秒重试？",
+        "expected": "举例为 2、4、8 秒；连续短间隔失败后下一秒仍可能失败，故障恢复可能需要分钟。",
+        "evidence": "s-g85.0~46; s-g86.0~39",
+        "from": "transcript",
+        "answer": "从 1 秒逐渐拉长到 2 秒、4 秒、8 秒，直到分钟级。连续每秒重试大概率仍失败，物理网络故障恢复可能要两三分钟，应该逐渐拉长间隔。",
+        "found_in": "s4:p1",
+        "verdict": "correct",
+        "note": "覆盖参考答案的全部关键点。",
+        "hash": "077cdb83108e6064"
+      },
+      {
+        "id": "q08",
+        "question": "API 中断那页分别如何处理暂时断网/限流与输入损坏/权限不足？",
+        "expected": "暂时断网或限流：保留进度并有限重试；输入损坏或权限不足：先改变条件，原样重试无用。",
+        "evidence": "slides/slide-05.png",
+        "from": "visual",
+        "answer": "暂时断网或服务限流：保留进度，有限重试。输入损坏或权限不足：先改变条件，原样重试没有用。",
+        "found_in": "s4:f1",
+        "verdict": "correct",
+        "note": "覆盖参考答案的全部关键点。",
+        "hash": "077cdb83108e6064"
+      },
+      {
+        "id": "q09",
+        "question": "支付请求发出后手机断网，客户端应把订单视为什么状态？为什么不能直接判失败？",
+        "expected": "未知状态；服务端可能已完成订单，客户端只是没有收到结果或缺少同步。",
+        "evidence": "s-g90.0~15; s-g92.0~14; s-g93.0~28; s-g94.0~14; s-g95.0~22",
+        "from": "transcript",
+        "answer": "未知状态。服务端可能已完成下单或支付，也可能失败；客户端只是断网、没有收到结果，缺少与服务端同步，不能据此直接判失败。",
+        "found_in": "s4:p2",
+        "verdict": "correct",
+        "note": "覆盖参考答案的全部关键点。",
+        "hash": "077cdb83108e6064"
+      },
+      {
+        "id": "q10",
+        "question": "第 7 页最小 Agent Loop 图里，有工具调用和无工具调用分别走哪条路径？右侧预算示例上限是多少？",
+        "expected": "有工具调用：执行工具→工具结果加入上下文→再次调用模型；无工具调用：回答用户/结束本轮；预算最多 20 分钟。",
+        "evidence": "slides/slide-07.png",
+        "from": "visual",
+        "answer": "上下文→调用模型；有工具调用则执行工具，把结果加入上下文再循环；无工具调用则回答用户，结束本轮。右侧预算示例是最多花 20 分钟。",
+        "found_in": "s5:f3",
+        "verdict": "correct",
+        "note": "覆盖参考答案的全部关键点。",
+        "hash": "a6e70004f4510ed3"
+      },
+      {
+        "id": "q11",
+        "question": "办公 Agent 需求页中，“交付与验收”除了产物可编辑，还列了哪些要点？",
+        "expected": "版本与来源；检查；部分完成。",
+        "evidence": "slides/slide-06.png",
+        "from": "visual",
+        "answer": "版本、来源、检查、部分完成。",
+        "found_in": "s5:f2",
+        "verdict": "correct",
+        "note": "覆盖参考答案的全部关键点。",
+        "hash": "a6e70004f4510ed3"
+      },
+      {
+        "id": "q12",
+        "question": "讲师为什么说做产品和做 MVP 不一样？MVP 在需求探索中起什么作用？",
+        "expected": "直接实现一份需求并不代表能应对未来变化；MVP 用来暴露真实需求，验证或推翻原先假设。",
+        "evidence": "s-g124.0~1; s-g127.0~18; s-g131.0~5",
+        "from": "transcript",
+        "answer": "直接实现长规格时，agent 倾向于完成眼前任务，不考虑未来需求变化。MVP 用于看到产品真正有什么需求，在使用过程中不断验证假设；做完整产品还要应对这些变化。",
+        "found_in": "s5:p2",
+        "verdict": "correct",
+        "note": "覆盖参考答案的全部关键点。",
+        "hash": "a6e70004f4510ed3"
+      },
+      {
+        "id": "q13",
+        "question": "Grok Bot 的出现为什么会让原先办公 Agent 的详细需求“全崩了”？",
+        "expected": "交互根基改变：把 Agent 当成有自己记忆的人，可拉群协作、定时工作；原来的项目侧栏与各类 view 等假设不再适用。",
+        "evidence": "s-g134.0~8; s-g138.0~2; s-g142.0~11; s-g145.0~23; s-g148.0~17",
+        "from": "transcript",
+        "answer": "Grok Bot 把 agent 当人，每人有记忆，可以拉群协同和安排定时任务。这与原需求“左侧项目、右侧若干 view”的交互假设完全不同，改变了交互模式的根基，所以原有详细需求全崩了。",
+        "found_in": "s6:p0, s6:p1",
+        "verdict": "correct",
+        "note": "覆盖参考答案的全部关键点。",
+        "hash": "31a02605d25b69fe"
+      },
+      {
+        "id": "q14",
+        "question": "第 10 页给出的神秘项目启动精确时间是什么？最初在 AGENTS.md 链接了哪两类文档？",
+        "expected": "2026 年 6 月 10 日 22:57；MVP requirement analysis 和 microkernel architecture 文档。",
+        "evidence": "slides/slide-10.png",
+        "from": "visual",
+        "answer": "2026 年 6 月 10 日 22:57；在 AGENTS.md 中链接 MVP requirement analysis 和 microkernel architecture 两类文档。",
+        "found_in": "s7:f0",
+        "verdict": "correct",
+        "note": "覆盖参考答案的全部关键点。",
+        "hash": "a3c76292404d4c3a"
+      },
+      {
+        "id": "q15",
+        "question": "讲师说架构是在什么之间取得平衡？模块边界确定以后，为什么能更容易并行开发？",
+        "expected": "受限与自由之间的平衡；开发单个模块只需较少了解系统其余部分，因此可独立开发。",
+        "evidence": "s-g235.0~22; s-g236.0; s-g236.0~25; s-g237.0~30",
+        "from": "transcript",
+        "answer": "在受限与自由之间取得平衡。模块边界确定后，开发者只需很少了解系统其余部分，各模块可按明确接口独立开发，因此更容易并行。",
+        "found_in": "s8:p0",
+        "verdict": "correct",
+        "note": "覆盖参考答案的全部关键点。",
+        "hash": "845332f344887e47"
+      },
+      {
+        "id": "q16",
+        "question": "为什么“每个模块都是进程，彼此随便发消息”的干净设计仍被讲师认为没有实际帮助？",
+        "expected": "只是 Actor Model 式的自由；没有规定何时发送什么消息及怎样管理接口，等于没有提供足够架构约束。",
+        "evidence": "s-g239.0~137; s-g241.0; s-g243.0; s-g244.0~25; s-g245.0~6",
+        "from": "transcript",
+        "answer": "它只是非常自由的 actor model，没有规定何时发什么消息、怎样管理消息，也没有明确 API 或队列约束；任何系统都能这样描述，仍未解决协作问题，等于没有架构。",
+        "found_in": "s8:p1, s11:p1",
+        "verdict": "correct",
+        "note": "覆盖参考答案的全部关键点。",
+        "hash": "c8aee968e2335adf"
+      },
+      {
+        "id": "q19",
+        "question": "操作系统那页中，Linux 的哪个配置达到上限且无法回收时会触发什么？",
+        "expected": "memory.max；触发组内 OOM。",
+        "evidence": "slides/slide-14.png",
+        "from": "visual",
+        "answer": "Linux 的 memory.max 达到上限且无法回收时，会触发该 cgroup 内的 OOM killer（组内 OOM）。",
+        "found_in": "s8:f1, x7",
+        "verdict": "correct",
+        "note": "覆盖参考答案的全部关键点。",
+        "hash": "845332f344887e47"
+      },
+      {
+        "id": "q20",
+        "question": "Java 托管内存那页列出的 GC 调优三项目标是什么？一个参数能保证同时改善它们吗？",
+        "expected": "降低暂停、提高吞吐、减少内存占用；不能保证同时改善，需要权衡。",
+        "evidence": "slides/slide-15.png",
+        "from": "visual",
+        "answer": "降低暂停、提高吞吐、减少内存占用；三者需要权衡，调一个参数不能保证同时改善它们。",
+        "found_in": "s8:f2",
+        "verdict": "correct",
+        "note": "覆盖参考答案的全部关键点。",
+        "hash": "845332f344887e47"
+      },
+      {
+        "id": "q24",
+        "question": "MapReduce 要求把计算组织成哪三个阶段？统计 URL 访问量时每条日志输出什么？",
+        "expected": "map→按 key 分组→reduce；每条日志输出 (URL, 1)。",
+        "evidence": "slides/slide-18.png",
+        "from": "visual",
+        "answer": "map→按 key 分组（排序、shuffle）→reduce；统计 URL 访问量时，每条日志输出 (URL, 1)，再按 URL 分组求和。",
+        "found_in": "s10:p1, s10:f2",
+        "verdict": "correct",
+        "note": "覆盖参考答案的全部关键点。",
+        "hash": "ac4eb18a0f67b319"
+      },
+      {
+        "id": "q25",
+        "question": "讲师演示 MapReduce 配置时，最多使用多少台机器，每个 task 使用多少内存？",
+        "expected": "最多 2,000 台机器；每个 task 100 MB（讲师说“一百兆”）。",
+        "evidence": "s-g294.0~65",
+        "from": "transcript",
+        "answer": "最多 2,000 台机器，每个 task 使用 100 兆内存；论文示例中 map 和 reduce 的 megabytes 都设为 100。",
+        "found_in": "s10:n0, x13",
+        "verdict": "correct",
+        "note": "覆盖参考答案的全部关键点。",
+        "hash": "ac4eb18a0f67b319"
+      },
+      {
+        "id": "q26",
+        "question": "MapReduce 页为何提醒 map 里发邮件会有问题？原论文 §4.5 要求应用作者保证额外副作用具有什么性质？",
+        "expected": "失败重试可能重复发邮件；需要保证原子性与幂等性。",
+        "evidence": "slides/slide-18.png",
+        "from": "visual",
+        "answer": "任务失败会重试，map 中发邮件可能导致重复发送。原论文 §4.5 要求应用作者保证额外副作用的原子性与幂等性。",
+        "found_in": "s10:f2, x13",
+        "verdict": "correct",
+        "note": "覆盖参考答案的全部关键点。",
+        "hash": "ac4eb18a0f67b319"
+      },
+      {
+        "id": "q27",
+        "question": "Spark 与 Flink 分别针对哪种超出一轮批处理的需求？",
+        "expected": "Spark：迭代计算复用数据，以 DAG 组织多阶段并缓存；Flink：持续处理到达数据并维护状态，满足低延迟实时需求。",
+        "evidence": "slides/slide-19.png",
+        "from": "visual",
+        "answer": "Spark 面向多阶段、反复迭代同一批数据的计算，以 DAG 和缓存复用数据，丢失分区按依赖重算。Flink 面向持续到达的数据和有状态流处理，例如最近五分钟访问量，需要定义事件时间、水位线、迟到策略，并协调输入位置和算子状态的检查点。",
+        "found_in": "s10:f3",
+        "verdict": "correct",
+        "note": "覆盖参考答案的全部关键点。",
+        "hash": "ac4eb18a0f67b319"
+      },
+      {
+        "id": "q28",
+        "question": "Everything Is a Plugin 下，插件的私有状态放在哪里？讲师认为真正难点是什么？",
+        "expected": "各插件自己封装并维护私有状态；真正难点是协同，不协同没用，随便协同则乱。",
+        "evidence": "s-g329.0; s-g341.0; slides/slide-20.png",
+        "from": "transcript",
+        "answer": "私有状态封装在各插件内部。真正难点是协同：不协同没有用，随便协同又会乱，需要明确协作规则和世界模型。",
+        "found_in": "s11:p1, s11:f0, s12:p1",
+        "verdict": "correct",
+        "note": "覆盖参考答案的全部关键点。",
+        "hash": "c9386ec804c596bf"
+      },
+      {
+        "id": "q29",
+        "question": "Session 在世界模型中被定义成什么数据结构？模型上下文与业务状态和它是什么关系？",
+        "expected": "Session = list[Event]；模型上下文与业务状态是 Session 状态的投影，体现 Event Sourcing。",
+        "evidence": "slides/slide-21.png",
+        "from": "visual",
+        "answer": "Session = list[Event]，是一份只追加的事件日志、历史的 ground truth；模型上下文和业务状态都是 Session state 的投影。",
+        "found_in": "s12:p2, s12:f0",
+        "verdict": "correct",
+        "note": "覆盖参考答案的全部关键点。",
+        "hash": "cdffe22b7bd41ad5"
+      },
+      {
+        "id": "q30",
+        "question": "第 22 页中，追加事实、监听已提交事实、导出模型消息分别使用哪些精确 API/事件名？",
+        "expected": "session.append(type, data)；ctx.on('session/event', ...)；session.deriveMessages()。",
+        "evidence": "slides/slide-22.png",
+        "from": "visual",
+        "answer": "追加事实用 session.append(type, data)；监听已提交事实用 session/event；导出模型消息用 session.deriveMessages()。",
+        "found_in": "s13:f1",
+        "verdict": "partial",
+        "note": "追加与导出 API 正确，也给出了 session/event 事件名，但未给出题目要求的完整监听 API ctx.on('session/event', ...)。",
+        "hash": "d43408cca5b5a163"
+      },
+      {
+        "id": "q31",
+        "question": "读取某个 Session 的业务投影状态使用哪个 API，传哪两个参数？",
+        "expected": "ctx.sessionProjections.stateOf(session, key)；参数为 session 和 key。",
+        "evidence": "slides/slide-22.png",
+        "from": "visual",
+        "answer": "stateOf(session, key)，传入 Session 和业务投影的 key。业务投影通过 ctx.sessionProjections.register 注册。",
+        "found_in": "s13:f1",
+        "verdict": "partial",
+        "note": "给出了 stateOf(session, key) 及两个参数，但未给出完整 API ctx.sessionProjections.stateOf(session, key)。",
+        "hash": "d43408cca5b5a163"
+      },
+      {
+        "id": "q32",
+        "question": "agent.followup、agent.inject、agent.steer 在是否唤醒执行与处理时机上有何区别？",
+        "expected": "followup 开新一轮用户输入并唤醒；inject 补上下文、等后续 step，不唤醒；steer 尽快进入后续 step，可以唤醒。",
+        "evidence": "slides/slide-23.png",
+        "from": "visual",
+        "answer": "agent.followup(message)：排入新一轮用户输入并唤醒执行。agent.inject(message)：只补充上下文，等待后续 step，不唤醒空闲 Agent。agent.steer(message)：引导尽快进入最近的后续 step，也可以唤醒空闲 Agent；不会让正在执行的模型调用或外部操作自动倒退。",
+        "found_in": "s13:f2, x19",
+        "verdict": "correct",
+        "note": "覆盖参考答案的全部关键点。",
+        "hash": "d43408cca5b5a163"
+      },
+      {
+        "id": "q33",
+        "question": "session/event 与 agent/pre-step 分别观察或改变什么？pre-step 中调用 next() 意味着什么？",
+        "expected": "session/event 观察已提交事实，纠正需追加事件；agent/pre-step 可改写待执行决策；next() 委托后续处理链。",
+        "evidence": "slides/slide-24.png",
+        "from": "visual",
+        "answer": "session/event 观察已经提交的事实，纠正需追加新事件；agent/pre-step 参与待执行决策，可改写即将进入模型的上下文。调用 next() 是把决策委托给后续处理链，不调用可能短路后续插件。",
+        "found_in": "s14:f2, s14:p0, x19",
+        "verdict": "correct",
+        "note": "覆盖参考答案的全部关键点。",
+        "hash": "2e53fbd3d8c79b10"
+      },
+      {
+        "id": "q34",
+        "question": "53 分钟左右的总线架构图中，从 Session 到 UI 插件的业务状态路径依次经过什么节点？图上各步箭头如何标注？",
+        "expected": "Session→业务投影 sessionProjections→UI 插件；依次标注“折叠事件”和“状态”。",
+        "evidence": "/Users/evahu/model-eval/course-rerun/runs/lecture-09/supp-cursor/ws/课堂笔记/frames/v003180000.jpg; slides/slide-25.png",
+        "from": "visual",
+        "answer": "Session（list[Event]，已提交事实、只追加）→业务投影 sessionProjections→UI 插件的 slots；两段箭头分别标注“折叠事件”和“状态”。",
+        "found_in": "s14:f0",
+        "verdict": "correct",
+        "note": "覆盖参考答案的全部关键点。",
+        "hash": "2e53fbd3d8c79b10"
+      },
+      {
+        "id": "q35",
+        "question": "pdf-reader 插件那页显示的依赖声明是什么？谁管理其生命周期？",
+        "expected": "inject = ['tools']；生命周期由 Cordis 管理。",
+        "evidence": "slides/slide-26.png",
+        "from": "visual",
+        "answer": "inject = ['tools']；生命周期由 Cordis 管理。",
+        "found_in": "s14:f1",
+        "verdict": "correct",
+        "note": "覆盖参考答案的全部关键点。",
+        "hash": "2e53fbd3d8c79b10"
+      },
+      {
+        "id": "q39",
+        "question": "讲师为什么觉得开源社区只做高达驾驶舱等界面增强“走远了”？他更想接入什么？",
+        "expected": "他看重整个插件生态的协同，而不只是 fancy UI 增强；更想接入 Super App，复用既有应用与生态能力。",
+        "evidence": "s-g583.0~2; s-g584.0~15; s-g585.1~12; s-g585.1~92",
+        "from": "transcript",
+        "answer": "因为 event bus 的能力是形成完整生态，让工具接入并相互组合，只用来 hook 事件、增强界面没有发挥它的潜力。他第一个更想接入的是 super app（如 WPS）。",
+        "found_in": "s17:p0, s17:p1",
+        "verdict": "correct",
+        "note": "覆盖参考答案的全部关键点。",
+        "hash": "b825fa8a72815f19"
+      },
+      {
+        "id": "q40",
+        "question": "大型 App AI 增强那张现场幻灯片，把最小抽象层写成哪三个英文部分相加？",
+        "expected": "lock objects + serialize objects + UI。",
+        "evidence": "/Users/evahu/model-eval/course-rerun/runs/lecture-09/supp-cursor/ws/课堂笔记/frames/v004320000.jpg; slides/slide-29.png",
+        "from": "visual",
+        "answer": "lock objects + serialize objects + UI。",
+        "found_in": "s18:f0",
+        "verdict": "correct",
+        "note": "覆盖参考答案的全部关键点。",
+        "hash": "ae48ea0e49a8cbac"
+      },
+      {
+        "id": "q41",
+        "question": "Excalidraw 画 turtle 演示中，对象被交给模型时用户还能编辑哪些内容？结果回来后是否仍可手工修改？",
+        "expected": "被选中交给模型的对象锁住，其他编辑仍能照常进行；生成结果是应用中的可编辑对象，可继续修改或删除。",
+        "evidence": "s-g601.0; s-g603.0; s-g606.0; s-g610.0",
+        "from": "transcript",
+        "answer": "交给模型的选区及绑定文字会被锁住，画布其余部分仍可编辑。结果回来后仍是 Excalidraw 对象，用户可以继续手工修改，甚至删除龟壳。",
+        "found_in": "s17:p2, s18:p0, x22",
+        "verdict": "correct",
+        "note": "覆盖参考答案的全部关键点。",
+        "hash": "9abc90abf9ae0a23"
+      },
+      {
+        "id": "q42",
+        "question": "GenUI 的双向通道是什么？用下棋卡片举例说明完整循环。",
+        "expected": "模型输出 HTML+JS 卡片；卡片代码可把信息注入上下文；点击落子→棋局写入上下文→模型应手→卡片更新。",
+        "evidence": "slides/slide-30.png",
+        "from": "visual",
+        "answer": "建立 Session（卡片）与模型的双向通道：模型输出 HTML + JS 卡片，卡片代码把交互信息注入上下文，再由模型指导界面更新。例如用户点击棋盘落子→棋局写入上下文→模型思考并应手→卡片更新。",
+        "found_in": "s18:p1, s18:f2",
+        "verdict": "correct",
+        "note": "覆盖参考答案的全部关键点。",
+        "hash": "ae48ea0e49a8cbac"
+      },
+      {
+        "id": "q43",
+        "question": "成语接龙演示中，点击按钮如何触发模型继续接词？当时模型输出后是 patch 原界面还是生成新卡片？",
+        "expected": "按钮 JavaScript 拼接字符串并注入模型上下文；当时直接生成新卡片，尚未做 patch。",
+        "evidence": "s-g634.0; s-g636.0~26; s-g636.0~34; s-g637.0~14",
+        "from": "transcript",
+        "answer": "点击按钮后，JavaScript 通过字符串拼接向模型上下文注入一句话，触发模型继续接词，例如惊弓之鸟→鸟语花香。当时实现直接生成一张新卡片，并非 patch 原界面。",
+        "found_in": "s18:p2",
+        "verdict": "correct",
+        "note": "覆盖参考答案的全部关键点。",
+        "hash": "ae48ea0e49a8cbac"
+      },
+      {
+        "id": "q17",
+        "question": "电力替代蒸汽的幻灯片中，为什么仅沿用旧厂房布局接上电，还不能充分获得新技术收益？",
+        "expected": "旧布局受传动轴与皮带约束；独立电机允许按生产流程重排设备，收益还需要设备与流程的重组。",
+        "evidence": "slides/slide-12.png",
+        "from": "visual",
+        "answer": "蒸汽工厂的机器布局受传动轴和皮带约束；仅给旧布局接电，仍保留了旧技术固化的设备、岗位和流程安排。独立电机允许设备按生产流程重新排列，只有进一步重组设备与生产流程，才能充分兑现新技术收益。",
+        "found_in": "s9:f0, x8",
+        "verdict": "correct",
+        "note": "涵盖传动轴与皮带对旧布局的约束、独立电机允许按生产流程重排设备，以及重组设备和流程才能兑现收益。",
+        "hash": "cfb64d75485e9756"
+      },
+      {
+        "id": "q18",
+        "question": "第 13 页客服研究的样本人数和平均效率提升分别是多少？幻灯片如何限定收益？",
+        "expected": "5,172 名客服；每小时解决的问题数平均提高 15%；收益因经验而异。",
+        "evidence": "slides/slide-13.png",
+        "from": "visual",
+        "answer": "样本为 5,172 名客服人员，AI 辅助使每小时解决的问题数平均提高 15%。幻灯片限定收益因经验而异，并指出收益如何分配仍取决于组织和制度；它没有说所有人都获得同样的提升。",
+        "found_in": "s9:f1",
+        "verdict": "correct",
+        "note": "准确给出 5,172 人、每小时解决问题数平均提高 15%，并说明收益因经验而异。",
+        "hash": "cfb64d75485e9756"
+      },
+      {
+        "id": "q21",
+        "question": "LAMP 的典型表单操作按什么顺序处理？若 PHP-FPM 请求一直等待实时消息，会出现什么限制？",
+        "expected": "HTTP 请求→PHP 处理→MySQL 读写→返回页面；等待会持续占用工作进程，并发受进程池容量约束。",
+        "evidence": "slides/slide-16.png",
+        "from": "visual",
+        "answer": "典型顺序是 HTTP 请求 → PHP 处理 → MySQL 读写 → 返回页面。若 PHP-FPM 请求一直等待实时消息，工作进程会一直被占用，无法释放名额，并发上限因此受进程池容量约束。",
+        "found_in": "s9:f2, x9",
+        "verdict": "correct",
+        "note": "请求处理顺序正确，并说明持续等待会占用工作进程，使并发受进程池容量限制。",
+        "hash": "cfb64d75485e9756"
+      },
+      {
+        "id": "q22",
+        "question": "校园卡的 Event Sourcing 例子包含哪三笔金额变化？回放时为什么不能再次扣款？",
+        "expected": "充值 100→消费 12→退款 12；重建状态不是重新执行外部副作用，再扣一次就错了。",
+        "evidence": "slides/slide-17.png",
+        "from": "visual",
+        "answer": "三笔变化是充值 100、消费 12、退款 12。回放是根据历史事实重算余额，不应再次执行已经发生的外部扣款，否则会重复扣钱；外部系统应通过网关访问，回放时网关不再把扣款调用送出去。",
+        "found_in": "s9:f3, x11",
+        "verdict": "correct",
+        "note": "三笔变化及顺序正确；明确回放用于重建状态，不能重复执行外部扣款副作用。",
+        "hash": "cfb64d75485e9756"
+      },
+      {
+        "id": "q23",
+        "question": "讲师用“强行毕业”解释 Event Sourcing 的限制时，需要怎样实现这项修改？为何不能悄悄改状态？",
+        "expected": "追加一个特殊事件并定义处理规则；该事件及提交者留在持久历史中，可被审计。",
+        "evidence": "s-g256.0~31; s-g257.0~60; s-g259.0~2; s-g260.0~48",
+        "from": "transcript",
+        "answer": "需要追加一个“强行毕业”的特殊事件，并加入相应的特殊处理规则。Event Sourcing 的当前状态由只追加的历史事实推导，不能随意覆写；该事件进入持久历史后可被审计，谁提交了事件也有记录，因此不能悄悄改状态而不留下原因与责任线索。",
+        "found_in": "s9:p1, s8:n0",
+        "verdict": "correct",
+        "note": "说明须追加特殊事件并定义处理规则，且事件和提交者会留在持久历史中供审计。",
+        "hash": "8d5171a558f567e1"
+      },
+      {
+        "id": "q37",
+        "question": "10 个自动上下文压缩插件，每个压缩到原来的二分之一，最终精确剩多少？这个例子说明什么？",
+        "expected": "剩 1/1024；插件单独合理不保证组合后合理，可能丢失大量信息。",
+        "evidence": "slides/slide-27.png",
+        "from": "visual",
+        "answer": "精确剩下原来的 (1/2)^10 = 1/1024；讲师口头说的是大约一千分之一。这个极端例子说明，每个插件单独合理，并不保证组合起来合理：重复压缩会把上下文压到无法阅读、信息丢失，插件之间的语义冲突仍需管理。",
+        "found_in": "s16:p1, s16:n0, s16:f2",
+        "verdict": "correct",
+        "note": "精确计算为 1/1024，并说明插件单独合理不保证组合合理，重复压缩可能造成大量信息丢失。",
+        "hash": "69844e05e6136b0d"
+      },
+      {
+        "id": "q38",
+        "question": "讲师是否认为插件架构消除了所有复杂性？用检查输入与改写输入的例子说明他的立场。",
+        "expected": "没有；它可减少 accidental complexity；检查与改写的先后顺序会改变结果，这类应用语义冲突属于仍需处理的 essential complexity。",
+        "evidence": "s-g571.0~107; s-g573.1~3; s-g574.0~5; s-g576.0~3",
+        "from": "transcript",
+        "answer": "不认为。插件只减少一部分 accidental complexity，essential complexity 和语义冲突仍然存在。例如一个插件检查输入，另一个改写输入，先检查还是先改写可能改变结果，顺序应由应用语义决定，插件架构本身无法替应用裁决。",
+        "found_in": "s16:p2, s16:f2",
+        "verdict": "correct",
+        "note": "明确插件架构不能消除所有复杂性，区分 accidental 与 essential complexity，并用检查和改写的顺序影响结果说明语义冲突。",
+        "hash": "69844e05e6136b0d"
+      }
+    ],
+    "question_author": "independent_agent",
+    "answerer": "independent_agent",
+    "author_model": "gpt-6.1-sol",
+    "answerer_model": "gpt-6.1-sol"
+  }
+}
